@@ -30,7 +30,7 @@ MPP_RET mpp_init(MppCtx ctx, MppCtxType type, MppCodingType coding)
 
 mpi暴露给外部的一系列接口都会直接bypass call到对应Mpp里的接口。所以我们直接看mpp里的接口。
 
-<img src="https://cdn.jsdelivr.net/gh//fumasterlin/cloudimg/notes_img/20200629201213.png" alt="image-20200605094705421" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh//fumasterlin/cloudimg/notes_img/20200629201213.png" alt="image-20200605094705421" style="zoom: 80%;" />
 
 ### mpp
 
@@ -229,8 +229,6 @@ typedef enum {
     MPI_CMD_BUTT,
 } MpiCmd;
 ```
-
-
 
 ### MppEnc
 
