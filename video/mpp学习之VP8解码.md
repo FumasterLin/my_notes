@@ -142,7 +142,7 @@ The pixel value clamping type bit is encoded as the following:
 • 1 - Reconstructed pixel values are guaranteed to be between 0 and 255 , no clamping is
 necessary  
 
-### 9.3 Segment-based Adjustments  
+### 9.3 Segment-based Adjustments
 
 ![image-20200629144925672](https://cdn.jsdelivr.net/gh//fumasterlin/cloudimg/notes_img/20200629201523.png)
 
@@ -390,7 +390,7 @@ static void vp8hwdDecodeCoeffUpdate(VP8DParserContext_t *p)
 
 
 
-### 9.10 Remaining Frame Header Data (non-Key Frame)  
+### 9.10 Remaining Frame Header Data (non-Key Frame)
 
 ![image-20200629154115595](https://cdn.jsdelivr.net/gh//fumasterlin/cloudimg/notes_img/20200629202132.png)
 
